@@ -1,2 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
 
-/* Your CSS Code here. */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.moviePic {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+.movieDetail {
+    position: relative;
+    top: 10px;
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
